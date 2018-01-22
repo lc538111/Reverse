@@ -8,7 +8,6 @@ class Reverse
         char[] temparray = input.toCharArray();
         int left, right=0;
         right = temparray.length-1;
- 
         for (left=0; left < right ; left++ ,right--)
         {
             // Swap values of left and right
